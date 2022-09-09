@@ -211,6 +211,12 @@ body.dark-theme{
 .whatsapp:hover{
   color: rgb(50, 207, 50);
 }
+.whatsapp2{
+  color: rgb(50, 207, 50);
+}
+.whatsapp2:hover{
+  color: rgb(50, 207, 50);
+}
 .telegram:hover{
   color: var(--first-color);
 }
