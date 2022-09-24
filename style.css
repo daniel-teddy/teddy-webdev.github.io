@@ -357,8 +357,15 @@ body.dark-theme{
 }
 .projects__card:hover .projects__modal{
   bottom: 0;
-}
 
+}
+.projects__card .text{
+  display: none;
+}
+.projects__card:hover .text{
+  display: block;
+  margin-bottom: .25rem;
+}
 /*=============== SKILLS ===============*/
 .skills__content{
   row-gap: 3.5rem;
