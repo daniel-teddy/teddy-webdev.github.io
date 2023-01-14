@@ -91,7 +91,10 @@ img {
 .change-theme:hover{
   color: var(--first-color);
 }
-
+.xxl-btn a{
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: hsl(var(--hue), 12%, 95%);
