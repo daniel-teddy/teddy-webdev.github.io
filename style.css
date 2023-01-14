@@ -92,8 +92,12 @@ img {
   color: var(--first-color);
 }
 .xxl-btn a{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--title-color);
+}
+.xxl-btn a i{
+  font-size: 1.75rem;
+  color: hsl(207deg 60% 48%);
 }
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
