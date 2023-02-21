@@ -71,6 +71,9 @@ ul {
 a {
   text-decoration: none;
 }
+a.profile__info-description{
+  color: var(--title-color);
+}
 
 img {
   max-width: 100%;
