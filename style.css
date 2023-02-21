@@ -72,7 +72,7 @@ a {
   text-decoration: none;
 }
 a.profile__info-description{
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 img {
