@@ -50,12 +50,12 @@
                 </div>
                 <div class="profile__info grid">
                     <div class="profile__info-group">
-                        <h3 class="profile__info-number">+2</h3>
+                        <h3 class="profile__info-number">+3</h3>
                         <p class="profile__info-description">Years of <br> experience</p>
                     </div>
 
                     <div class="profile__info-group">
-                        <h3 class="profile__info-number">+13</h3>
+                        <h3 class="profile__info-number">+52</h3>
                         
                         <a href="https://teddywebdev-all-codes.netlify.app/" class="profile__info-description">Completed <br>Projects</a>
                     </div>
@@ -89,8 +89,11 @@
                         Download CV <i class="ri-download-line"></i>
                     </a>
                     <div class="profile__buttons-small">
-                        <a href="https://api.whatsapp.com/send?phone=+90(539)1074305&text=Hello, I want to hire you, I need more information!" target="_blank" class="button button__small button__gray whatsapp">
+                        <!-- <a href="https://api.whatsapp.com/send?phone=+90(539)1074305&text=Hello, I want to hire you, I need more information!" target="_blank" class="button button__small button__gray whatsapp">
                             <i class="ri-whatsapp-line"></i>
+                        </a> -->
+                        <a target="_blank" class="button button__small button__gray whatsapp" href="mailto:contact@teddy-webdev.click">
+                            <i class="ri-mail-line"></i>
                         </a>
                         <!-- add your telegram link or facebook link in the href tag -->
                         <a href="https://github.com/teddy-webdev" target="_blank" class="button button__small button__gray telegram">
@@ -335,6 +338,13 @@
                                        <!--  <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div class="">
+                                        <h3 class="skills__name">Xest Js</h3>
+                                       <!--  <span class="skills__level">Intermediate</span> -->
+                                    </div>
+                                </div>
 
                                 
                             </div>
@@ -352,12 +362,14 @@
     <!--=============== FOOTER ===============-->
     <footer class="footer container">
         <span class="footer__copy">
-            &#169; TeddyWebDev. <b id="year"></b> All rights reserved . E-mail: ohdearteddy@gmail.com
+            &#169; TeddyWebDev. <b id="year"></b> All rights reserved . E-mail :  <a class="profile__info-description" href="mailto:contact@teddy-webdev.click"> contact@teddy-webdev.click  </a>
+        </span>
+        <span class="footer__copy">
+            <br>
             <script>
                 const currentYear = new Date().getFullYear();
-                document.getElementById("year").innerHTML = currentYear;
+                document.getElementById("year").innerHTML = (" " + currentYear + " "  );
             </script>
-            
         </span>
         
     </footer>
